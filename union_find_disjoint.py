@@ -17,7 +17,7 @@ class Union_Find(object):
 
     def __init__(self, size):
         if size <= 0:
-            raise Exception('Not a Valid argument')
+            raise Exception('Not a Valid argument!!')
 
         self._size = self._num_components = size
         self._component_size = []
